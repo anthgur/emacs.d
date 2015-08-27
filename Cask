@@ -2,10 +2,12 @@
 (source melpa)
 
 (depends-on "ample-theme")
+(depends-on "bind-key")
 (depends-on "cask")
 (depends-on "cider")
 (depends-on "clojure-mode")
 (depends-on "company")
+(depends-on "discover-my-major")
 (depends-on "exec-path-from-shell")
 (depends-on "git-gutter")
 (depends-on "helm")
