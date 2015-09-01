@@ -29,7 +29,8 @@
 (gsk "C-S-x C-l"     'helm-locate)
 (gsk "C-c C-s"       'helm-semantic-or-imenu)
 (gsk "M-x"           'helm-M-x)
-(gsk "C-)"           'sp-forward-slurp-sexp)
+(gsk "M-)"           'sp-forward-slurp-sexp)
+(gsk "M-]"           'sp-raise-sexp)
 (gsk "C-x C-f"       'helm-find-files)
 (gsk "C-x C-b"       'helm-buffers-list)
 
